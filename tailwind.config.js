@@ -8,7 +8,11 @@ module.exports = {
       secondary: "#3B997D",
       danger: "#e3342f",
     }),
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/herobg.jpg')",
+      },
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
