@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inter:wght@200&family=Sono:wght@300;500&display=swap'); 
+
+
+:root {
+  font-family: "Fira Code";
+}
+
+span {
+  color: #3B997D;
+}
