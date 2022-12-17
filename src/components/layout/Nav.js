@@ -3,25 +3,33 @@ import { useState } from "react";
 const Nav = () => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
   return (
-    <nav className="fixed flex w-screen flex-row items-center justify-between bg-current px-2 sm:px-10">
-      <button className="text-2xl text-white">
-        <span>{`{`}</span>joaobitu<span>{`}`}</span>
-      </button>
+    <nav className="fixed flex w-screen flex-row items-center justify-between bg-gray-900 px-2 sm:px-10">
+      <a href="#hero">
+        <button className="text-2xl text-white">
+          <span>{`{`}</span>joaobitu<span>{`}`}</span>
+        </button>
+      </a>
       <ul className="hidden flex-row flex-wrap gap-10 text-2xl text-white md:flex">
         <li>
-          <button>
-            <span>01.</span>About
-          </button>
+          <a href="#about">
+            <button>
+              <span>01.</span>About
+            </button>
+          </a>
         </li>
         <li>
-          <button>
-            <span>02.</span>Projects
-          </button>
+          <a href="#projects">
+            <button>
+              <span>02.</span>Projects
+            </button>
+          </a>
         </li>
         <li>
-          <button>
-            <span>03.</span>Contact
-          </button>
+          <a href="#contact">
+            <button>
+              <span>03.</span>Contact
+            </button>
+          </a>
         </li>
       </ul>
 
@@ -57,19 +65,25 @@ const Nav = () => {
         </button>
         <ul className="flex flex-col gap-10 text-2xl text-white ">
           <li>
-            <button onClick={() => setHamburgerActive(!hamburgerActive)}>
-              <span>01.</span>About
-            </button>
+            <a href="#about">
+              <button onClick={() => setHamburgerActive(!hamburgerActive)}>
+                <span>01.</span>About
+              </button>
+            </a>
           </li>
           <li>
-            <button onClick={() => setHamburgerActive(!hamburgerActive)}>
-              <span>02.</span>Projects
-            </button>
+            <a href="#projects">
+              <button onClick={() => setHamburgerActive(!hamburgerActive)}>
+                <span>02.</span>Projects
+              </button>
+            </a>
           </li>
           <li>
-            <button onClick={() => setHamburgerActive(!hamburgerActive)}>
-              <span>03.</span>Contact
-            </button>
+            <a href="#contact">
+              <button onClick={() => setHamburgerActive(!hamburgerActive)}>
+                <span>03.</span>Contact
+              </button>
+            </a>
           </li>
         </ul>
       </nav>

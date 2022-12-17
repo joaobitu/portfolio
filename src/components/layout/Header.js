@@ -3,7 +3,10 @@ import LocationIcon from "../../assets/map-marker-outline.svg";
 
 const Header = () => {
   return (
-    <header className="flex h-screen flex-col items-center justify-center bg-hero-pattern bg-contain">
+    <header
+      className="flex h-screen flex-col items-center justify-center bg-hero-pattern bg-contain"
+      id="hero"
+    >
       <section className="flex flex-col gap-5 px-1 md:gap-10">
         <h1 className="text-2xl font-bold text-white sm:text-4xl lg:text-6xl">
           Hi,

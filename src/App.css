@@ -4,7 +4,9 @@
 :root {
   font-family: "Fira Code";
 }
-
+html {
+  scroll-behavior: smooth;
+}
 span {
-  color: #3B997D;
+  color: #3d997d;
 }
