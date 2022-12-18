@@ -6,7 +6,10 @@ import whatsappIcon from "../../assets/whatsapp.svg";
 
 const Contact = () => {
   return (
-    <section className="grid min-h-screen scroll-mt-12 scroll-px-2 place-items-center gap-10 bg-gray-900 py-20 px-2 sm:scroll-m-0 sm:gap-0 sm:px-40 md:grid-cols-2">
+    <section
+      id="contact"
+      className="grid min-h-screen scroll-mt-12 scroll-px-2 place-items-center gap-10 bg-gray-900 py-20 px-2 sm:scroll-m-0 sm:gap-0 sm:px-40 md:grid-cols-2"
+    >
       <section className="flex flex-col gap-5">
         <h2
           className="border-b-4  border-solid text-5xl  font-extrabold text-white md:text-6xl xl:text-7xl"

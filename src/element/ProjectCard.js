@@ -7,7 +7,7 @@ import adminDashBoardImage from "../../src/assets/adminDashboardPreview.png";
 import shoppingCartGif from "../../src/assets/ShoppingCartPreview.gif";
 const ProjectCard = (props) => {
   return (
-    <section className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
+    <section className="grid gap-10 sm:gap-2 md:grid-cols-2 lg:grid-cols-3">
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-300 ${
           ((props.projectFocusSelected === "all" ||
