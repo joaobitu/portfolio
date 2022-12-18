@@ -1,9 +1,34 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const Nav = () => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+
+    if (currentScrollPos > prevScrollPos) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
   return (
-    <nav className="fixed flex w-screen flex-row items-center justify-between bg-gray-900 px-2 sm:px-10">
+    <nav
+      className={`fixed z-10 flex w-screen flex-row items-center justify-between bg-gray-900 px-2 transition-all duration-500 sm:px-10 ${
+        visible ? "opacity-0" : "opacity-100"
+      }`}
+    >
       <a href="#hero">
         <button className="text-2xl text-white">
           <span>{`{`}</span>joaobitu<span>{`}`}</span>

@@ -10,3 +10,27 @@ html {
 span {
   color: #3d997d;
 }
+
+#projectsA {
+  background-color: #0f172a;
+opacity: 0.5;
+background-image:  radial-gradient(#3d997d 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#3d997d 1.1500000000000001px, #0f172a 1.1500000000000001px);
+background-size: 46px 46px;
+background-position: 0 0,23px 23px;
+}
+
+.project-sort-button {
+  border: #3d997d 2px solid;
+  background-color: #3d997d;
+  color: white;
+  
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.project-sort-button:active {
+  transform: translateX(1rem);
+}
