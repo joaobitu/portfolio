@@ -11,12 +11,12 @@ span {
   color: #3d997d;
 }
 
-#projectsA {
-  background-color: #0f172a;
-opacity: 0.5;
-background-image:  radial-gradient(#3d997d 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#3d997d 1.1500000000000001px, #0f172a 1.1500000000000001px);
-background-size: 46px 46px;
-background-position: 0 0,23px 23px;
+#projects {
+  background-color: #DFF0D8;
+  
+  background-image:  radial-gradient(#090F07 1.75px, transparent 1.75px), radial-gradient(#090F07 1.75px, #DFF0D8 1.75px);
+  background-size: 70px 70px;
+  background-position: 0 0,35px 35px;
 }
 
 .project-sort-button {

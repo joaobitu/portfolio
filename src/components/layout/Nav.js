@@ -4,15 +4,15 @@ const Nav = () => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
 
     if (currentScrollPos > prevScrollPos) {
-      setVisible(false);
-    } else {
       setVisible(true);
+    } else {
+      setVisible(false);
     }
 
     setPrevScrollPos(currentScrollPos);

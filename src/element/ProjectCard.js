@@ -10,8 +10,8 @@ const ProjectCard = (props) => {
     <section className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-300 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "layout") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "layout") &&
             "block") ||
           "-translate-x-60 opacity-0"
         }`}
@@ -22,8 +22,19 @@ const ProjectCard = (props) => {
           alt="portfolio project animated"
           className={`col-span-2 rounded-t  `}
         />
-        <button className="hover:bg-gray-900">Repository</button>
-        <button className="hover:bg-gray-900">Live</button>
+
+        <button className="col-span-2 place-self-center hover:bg-gray-900">
+          <a
+            href="https://github.com/joaobitu/portfolio"
+            target="_blank"
+            rel="noreferrer"
+            alt="Live"
+          >
+            {" "}
+            Repository
+          </a>
+        </button>
+
         <p className="col-span-2 p-4">
           Well, you're already here! This project was built with React and
           TailwindCSS
@@ -32,8 +43,8 @@ const ProjectCard = (props) => {
 
       <div
         className={`grid w-80 scale-100 grid-cols-2  rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "logic") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "logic") &&
             "block") ||
           "-translate-y-60 opacity-0"
         }`}
@@ -75,8 +86,8 @@ const ProjectCard = (props) => {
       </div>
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "layout") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "layout") &&
             "block") ||
           "translate-x-60 opacity-0"
         }`}
@@ -118,8 +129,8 @@ const ProjectCard = (props) => {
       </div>
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "logic") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "logic") &&
             "block") ||
           "-translate-x-60 opacity-0"
         }`}
@@ -130,16 +141,35 @@ const ProjectCard = (props) => {
           alt="where is waldo project animated"
           className={`col-span-2 rounded-t  `}
         />
-        <button className="hover:bg-gray-900">Repository</button>
-        <button className="hover:bg-gray-900">Live</button>
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://joaobitu.github.io/where-is-waldo/"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Repository
+          </a>
+        </button>
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://github.com/joaobitu/where-is-waldo"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Live
+          </a>
+        </button>
         <p className="col-span-2 p-4">
           Where is Waldo? Try to find him in this classic game built with React.
         </p>
       </div>
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "layout") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "layout") &&
             "block") ||
           "translate-y-60 opacity-0"
         }`}
@@ -150,8 +180,27 @@ const ProjectCard = (props) => {
           alt="admin dashboard"
           className={`col-span-2 rounded-t  `}
         />
-        <button className="hover:bg-gray-900">Repository</button>
-        <button className="hover:bg-gray-900">Live</button>
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://github.com/joaobitu/admin-dashboard"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Repository
+          </a>
+        </button>
+        <button className="hover:bg-gray-900">
+          {" "}
+          <a
+            href="https://joaobitu.github.io/admin-dashboard/"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Live
+          </a>
+        </button>
         <p className="col-span-2 p-4">
           Admin Dashboard, CSS Grid is a very powerful tool!
         </p>
@@ -159,8 +208,8 @@ const ProjectCard = (props) => {
 
       <div
         className={`grid w-80 scale-100 grid-cols-2 rounded border-2 border-solid border-gray-900 text-white transition-all duration-700 ${
-          ((props.projectFocusSelected == "all" ||
-            props.projectFocusSelected == "logic") &&
+          ((props.projectFocusSelected === "all" ||
+            props.projectFocusSelected === "logic") &&
             "block") ||
           "translate-x-60 opacity-0"
         }`}
@@ -171,10 +220,29 @@ const ProjectCard = (props) => {
           alt="block talk project animated"
           className={`col-span-2 rounded-t  `}
         />
-        <button className="hover:bg-gray-900">Repository</button>
-        <button className="hover:bg-gray-900">Live</button>
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://github.com/joaobitu/shopping-cart"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Repository
+          </a>
+        </button>
+        <button className="hover:bg-gray-900">
+          <a
+            href="https://joaobitu.github.io/shopping-cart/"
+            target="_blank"
+            rel="noreferrer"
+            alt="Repositoty"
+          >
+            Live
+          </a>
+        </button>
         <p className="col-span-2 p-4">
-          Block Talk, a full stack social media app built with React & Firebase
+          Shopping Cart, buy Yu Gi Oh cards {"(called by an API)"} and get to
+          Duel!
         </p>
       </div>
     </section>

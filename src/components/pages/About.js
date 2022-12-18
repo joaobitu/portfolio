@@ -4,7 +4,7 @@ import ProfilePic from "../../assets/profile-pic.jpeg";
 const About = () => {
   return (
     <section
-      className="grid h-screen scroll-mt-12 place-items-center bg-gray-900 px-2 sm:scroll-m-0 sm:px-20 md:grid-cols-2"
+      className="grid h-screen scroll-mt-12 scroll-px-2 place-items-center bg-gray-900 sm:scroll-m-0 sm:px-40 md:grid-cols-2"
       id="about"
     >
       <h5 className="  text-6xl    font-extrabold text-gray-500 md:text-8xl xl:text-9xl">
