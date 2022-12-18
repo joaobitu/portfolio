@@ -18,12 +18,14 @@ const Header = () => {
             Brazil, a country I'm very <span>happy</span> to live in.
           </p>
         </div>
-        <button
-          className="duration-400 self-start rounded p-4 text-base font-bold text-white transition-all hover:bg-secondary active:translate-x-2 sm:text-lg lg:text-2xl"
-          style={{ border: "1px solid #3d997d" }}
-        >
-          Let's get in touch!
-        </button>
+        <a href="#contact">
+          <button
+            className="duration-400 self-start rounded p-4 text-base font-bold text-white transition-all hover:bg-secondary active:translate-x-2 sm:text-lg lg:text-2xl"
+            style={{ border: "1px solid #3d997d" }}
+          >
+            Let's get in touch!
+          </button>
+        </a>
       </section>
     </header>
   );

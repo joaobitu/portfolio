@@ -143,7 +143,7 @@ const ProjectCard = (props) => {
         />
         <button className="hover:bg-gray-900">
           <a
-            href="https://joaobitu.github.io/where-is-waldo/"
+            href="https://github.com/joaobitu/where-is-waldo"
             target="_blank"
             rel="noreferrer"
             alt="Repositoty"
@@ -154,7 +154,7 @@ const ProjectCard = (props) => {
         <button className="hover:bg-gray-900">
           {" "}
           <a
-            href="https://github.com/joaobitu/where-is-waldo"
+            href="https://joaobitu.github.io/where-is-waldo/"
             target="_blank"
             rel="noreferrer"
             alt="Repositoty"
