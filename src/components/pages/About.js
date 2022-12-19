@@ -24,6 +24,12 @@ const About = () => {
           learning. I yearn to build products that solve real life problems, and
           have a positive impact in society at large. Talk to me if you need
           someone with the commitment and eagerness to push your product ahead.
+          Click here for my{" "}
+          <span>
+            <a href="https://drive.google.com/uc?export=download&id=10EgLHJa-qyvivbf2iYQcLcRs4tR912hS">
+              Resume
+            </a>
+          </span>
         </p>
       </div>
     </section>

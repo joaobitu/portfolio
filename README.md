@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A practical Hub with all things João in it!
 
-## Available Scripts
+## Functionalities
 
-In the project directory, you can run:
+- Fully Responsive between mobile and full HD resolutions
+- Smooth resizing and in page scrolling
+- Animated, sortable projects section
+- A sticky navigation that moves out of your way when you do not need it
+- A form that actually directs messages to me, using Fromspring
 
-### `npm start`
+## Practiced Skills
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This was my first project using TailwindCSS! and honestly it is quite a bit of a shock going from a CSS style sheet to inline classes to style my componenents, there are some tweaks I still need to make but having that kind of proximity between componenent and styling makes sense, as explained in [here](https://www.youtube.com/watch?v=CQuTF-bkOgc&ab_channel=Theo-t3%E2%80%A4gg).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![alt text](src/assets/PortfolioPreview.gif)
 
-### `npm test`
+Something else that I considered for the first time was the actual UX of the website, I wanted all of the portfolio to be easily accessible, one thing that really helped with it was the way I handled the navigation bar:
+![alt text](https://i.imgur.com/4A8cPzE.mp4)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsiveness was also a very important issue for me, especially since these days [mobile is more prevalent than computers](https://www.oberlo.com/statistics/mobile-internet-traffic#:~:text=As%20of%20November%202022%2C%2049.78,internet%20users%20in%20the%20US.)
+![alt text](https://i.imgur.com/wOJPlZ7.mp4)
 
-### `npm run build`
+Oh, also, I wanna shoutout [this person from behance](https://www.behance.net/gallery/157263277/Portofolio-web-Frontend-developer-inspired), as I implemented their design to make my website!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Overall it was very rewarding to do something pretty for a change!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+- ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-### `npm run eject`
+## Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I believe this website could evidently still benefit from some imporvements, wich I may or may not do in the future:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Improve the scrolling through menus experience on mobile.
+- Projects section could be prettier, the buttons on the cards there are also problematic
+- Use a color with better contrast for socials SVG's
+- Adding portuguese support.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Live version](https://polite-strudel-3cec49.netlify.app/)
