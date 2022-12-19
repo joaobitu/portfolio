@@ -68,7 +68,7 @@ const Contact = () => {
           <br />
           <input
             type="text"
-            className="rounded bg-slate-500 text-white"
+            className="rounded bg-slate-500 p-2 text-white"
             name="name"
             required
           />
@@ -79,7 +79,7 @@ const Contact = () => {
           <br />
           <input
             type="email"
-            className="rounded bg-slate-500 text-white"
+            className="rounded bg-slate-500 p-2 text-white"
             name="email"
             required
           />
@@ -90,7 +90,7 @@ const Contact = () => {
           <br />
           <textarea
             type="text"
-            className="w-full resize-none rounded bg-slate-500 text-white"
+            className="w-full resize-none rounded bg-slate-500 p-2 text-white"
             placeholder="Type something here..."
             rows="5"
             name="message"

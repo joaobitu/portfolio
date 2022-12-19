@@ -12,11 +12,19 @@ span {
 }
 
 #projects {
-  background-color: #DFF0D8;
+ 
+    /* Set the default background color */
+    background-color: #f7fafc;
   
-  background-image:  radial-gradient(#090F07 1.75px, transparent 1.75px), radial-gradient(#090F07 1.75px, #DFF0D8 1.75px);
-  background-size: 70px 70px;
-  background-position: 0 0,35px 35px;
+    /* Add a gradient overlay */
+    background-image: linear-gradient(to bottom, #f7fafc, #edf2f7);
+  
+    /* Add a repeating pattern overlay using CSS gradients */
+    background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 50%, #eee 50%, #eee 75%, transparent 75%, transparent),
+                       linear-gradient(-45deg, #eee 25%, transparent 25%, transparent 50%, #eee 50%, #eee 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+  
+  
 }
 
 .project-sort-button {
