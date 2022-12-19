@@ -17,10 +17,10 @@ This was my first project using TailwindCSS! and honestly it is quite a bit of a
 ![alt text](src/assets/PortfolioPreview.gif)
 
 Something else that I considered for the first time was the actual UX of the website, I wanted all of the portfolio to be easily accessible, one thing that really helped with it was the way I handled the navigation bar:
-![alt text](src/assets/4A8cPzE.mp4)
+![alt text](src/assets/PortfolioNavigation.gif)
 
 Responsiveness was also a very important issue for me, especially since these days [mobile is more prevalent than computers](https://www.oberlo.com/statistics/mobile-internet-traffic#:~:text=As%20of%20November%202022%2C%2049.78,internet%20users%20in%20the%20US.)
-![alt text](src/assets/wOJPlZ7.mp4)
+![alt text](src/assets/PortfolioMobileNavigation.gif)
 
 Oh, also, I wanna shoutout [this person from behance](https://www.behance.net/gallery/157263277/Portofolio-web-Frontend-developer-inspired), as I implemented their design to make my website!
 
@@ -28,7 +28,7 @@ Overall it was very rewarding to do something pretty for a change!
 
 ## Technologies
 
-- ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+- ![TailwindCSS](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Tailwind&logoColor=white)
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
