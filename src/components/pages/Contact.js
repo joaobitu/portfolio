@@ -8,11 +8,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="grid min-h-screen scroll-mt-12 scroll-px-2 place-items-center gap-10 bg-gray-900 py-20 px-2 sm:scroll-m-0 sm:gap-0 sm:px-40 md:grid-cols-2"
+      className="grid min-h-screen  place-items-center gap-10 bg-gray-900 py-20 px-2  sm:gap-0 sm:px-40 lg:grid-cols-2"
     >
-      <section className="flex flex-col gap-5">
+      <section className="flex flex-col items-center gap-5">
         <h2
-          className="border-b-4  border-solid text-5xl  font-extrabold text-white md:text-6xl xl:text-7xl"
+          className="border-b-4  border-solid  text-4xl font-extrabold text-white md:text-6xl xl:text-7xl"
           style={{ borderColor: "#3d997d" }}
         >
           Contact <span>Me!</span>
@@ -25,12 +25,12 @@ const Contact = () => {
           >
             <img
               src={linkedinIcon}
-              className="h-24 w-24 hover:scale-125"
+              className="h-16 w-16 hover:scale-125"
               alt=""
             />
           </a>
           <a href="mailto:joaovbitu@gmail.com">
-            <img src={gmailIcon} className="h-24 w-24 hover:scale-125" alt="" />
+            <img src={gmailIcon} className="h-16 w-16 hover:scale-125" alt="" />
           </a>
 
           <a
@@ -40,7 +40,7 @@ const Contact = () => {
           >
             <img
               src={githubIcon}
-              className="h-24 w-24 hover:scale-125"
+              className="h-16 w-16 hover:scale-125"
               alt=""
             />
           </a>
@@ -51,7 +51,7 @@ const Contact = () => {
           >
             <img
               src={whatsappIcon}
-              className="h-24 w-24 hover:scale-125"
+              className="h-16 w-16 hover:scale-125"
               alt=""
             />
           </a>
@@ -59,7 +59,7 @@ const Contact = () => {
       </section>
       <form
         style={{ color: "#3d997d" }}
-        className="flex flex-col gap-5 text-2xl"
+        className="flex flex-col gap-5 text-lg sm:text-2xl"
         action="https://formspree.io/f/myyageyk"
         method="POST"
       >
